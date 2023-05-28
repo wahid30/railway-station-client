@@ -1,0 +1,38 @@
+[
+{
+    "img":"https://live.staticflickr.com/4473/37059121994_8ea6a1e99a_b.jpg",
+    "district_name":"Chittagong",
+    "available_status":"Every Day",
+    "ticket_price":238
+},
+{
+    "img":"https://2.bp.blogspot.com/-iCB74hsJWfE/WIbx_A0WnYI/AAAAAAAAAlw/OFHxJxUXYCAMkqo2zMugcq6EF5xdLuFQwCLcB/s1600/Kamalapur%2BRailway%2BStation.jpg",
+    "district_name":"Dhaka",
+    "available_status":"Every Day",
+    "ticket_price":238
+},
+{
+    "img":"https://i.ytimg.com/vi/Ym2Gs2MOOmM/maxresdefault.jpg",
+    "district_name":"Khulna",
+    "available_status":"Every Day",
+    "ticket_price":238
+},
+{
+    "img":"https://way2barak.com/wp-content/uploads/2020/03/silchar-railway-station.jpg",
+    "district_name":"Sylhet",
+    "available_status":"Every Day",
+    "ticket_price":238
+},
+{
+    "img":"https://farm1.staticflickr.com/721/22377502798_875502c4cc_b.jpg",
+    "district_name":"Rajshahi",
+    "available_status":"Every Day",
+    "ticket_price":238
+},
+{
+    "img":"https://th.bing.com/th/id/R.eee35f99f29f2412c3b971169ed7fcb5?rik=zGMKOsvmvhvHMA&riu=http%3a%2f%2fphotos.wikimapia.org%2fp%2f00%2f02%2f18%2f71%2f55_big.jpg&ehk=ppEPClmgTjVwVsjtOGoci8rL%2fsE4kjvfImL4jWMvJ%2bQ%3d&risl=&pid=ImgRaw&r=0",
+    "district_name":"Comilla",
+    "available_status":"Every Day",
+    "ticket_price":238
+}
+]
