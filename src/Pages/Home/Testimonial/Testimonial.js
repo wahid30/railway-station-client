@@ -3,23 +3,52 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div className="w-9/12 mx-auto my-5">
-        <h1>Testimonial</h1>
-      <div className="collapse">
-  <input type="checkbox" className="peer" />
-  <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-    Niloy 
-  </div>
-  <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content flex items-center gap-3">
-  <div className="avatar">
-  <div className="w-24 rounded-full">
-    <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-  </div>
-</div>
-    <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt pariatur itaque ea. Perferendis, blanditiis ipsa.</p></div>
-  </div>
-</div>
+      <h1>Testimonial</h1>
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
+      {/* person 01  */}
+      <div className="flex items-start justify-center gap-5 my-5">
+        <div>
+          <div className="avatar">
+            <div className="w-24 rounded-full">
+              <img src="https://th.bing.com/th/id/R.c82461205d4218eede05a44b5b1c643d?rik=81LZoxzibmEzZg&pid=ImgRaw&r=0" />
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-2">
+          <h1 className="font-bold">Niloy</h1>
+          <p className="text-sm">I'm using react on that project and handle the backend by using node.js and mongodb</p>
+        </div>
+      </div>
+      {/* person 02  */}
+      <div className="flex items-start justify-center gap-5 my-5">
+        <div>
+          <div className="avatar">
+            <div className="w-24 rounded-full">
+              <img src="https://th.bing.com/th/id/R.c82461205d4218eede05a44b5b1c643d?rik=81LZoxzibmEzZg&pid=ImgRaw&r=0" />
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-2">
+          <h1 className="font-bold">Niloy</h1>
+          <p className="text-sm">I'm using react on that project and handle the backend by using node.js and mongodb</p>
+        </div>
+      </div>
+      {/* person 03  */}
+      <div className="flex items-start justify-center gap-5 my-5">
+        <div>
+          <div className="avatar">
+            <div className="w-24 rounded-full">
+              <img src="https://th.bing.com/th/id/R.c82461205d4218eede05a44b5b1c643d?rik=81LZoxzibmEzZg&pid=ImgRaw&r=0" />
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-2">
+          <h1 className="font-bold">Niloy</h1>
+          <p className="text-sm">I'm using react on that project and handle the backend by using node.js and mongodb</p>
+        </div>
+      </div></div>
     </div>
-  )
+  );
 };
 
 export default Testimonial;
