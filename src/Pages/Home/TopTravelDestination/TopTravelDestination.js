@@ -10,7 +10,7 @@ const TopTravelDestination = () => {
   },[])
   return (
     <div className="w-9/12 mx-auto my-5">
-   <h1>Top Travel Destination</h1>
+   <h1 className="text-2xl text-center font-bold">Top Travel Destination</h1>
    <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
     
     {

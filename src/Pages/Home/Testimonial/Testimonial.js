@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div className="w-9/12 mx-auto my-5">
-      <h1>Testimonial</h1>
+      <h1 className="text-2xl text-center font-bold my-5">Testimonial</h1>
      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
       {/* person 01  */}
       <div className="flex items-start justify-center gap-5 my-5">

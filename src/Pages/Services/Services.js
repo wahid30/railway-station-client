@@ -9,7 +9,7 @@ const Services = () => {
     event.preventDefault();
     console.log(user);
 
-    fetch("https://pet-service-server-wahid30.vercel.app/dayCareServices", {
+    fetch("http://localhost:5000/services", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(user),
@@ -45,6 +45,7 @@ const Services = () => {
             type="checkbox"
             id="TrainBookedServices"
             className="modal-toggle"
+
           />
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box">
@@ -64,6 +65,7 @@ const Services = () => {
                     name="userName"
                     placeholder="Enter your name"
                     className="mb-2 input input-bordered w-full"
+                    required
                   />
                   <br />
                   <input
@@ -72,6 +74,7 @@ const Services = () => {
                     name="userAge"
                     placeholder="Enter your age"
                     className="mb-2 input input-bordered w-full "
+                    required
                   />
                   <br />
                   <input
@@ -80,6 +83,7 @@ const Services = () => {
                     name="userAddress"
                     placeholder="Enter your address"
                     className="mb-2 input input-bordered w-full "
+                    required
                   />
                   <br />
                   <input
@@ -88,6 +92,7 @@ const Services = () => {
                     name="userContactNumber"
                     placeholder="Enter your contact number"
                     className="mb-2 input input-bordered w-full "
+                    required
                   />
                   <br />
                   <input
@@ -96,6 +101,7 @@ const Services = () => {
                     name="from"
                     placeholder="From-"
                     className="mb-2 input input-bordered w-full "
+                    required
                   />
                   <br />
                   <input
@@ -104,6 +110,7 @@ const Services = () => {
                     name="to"
                     placeholder="To-"
                     className="mb-2 input input-bordered w-full "
+                    required
                   />
                   <br />
                   <input
@@ -111,6 +118,7 @@ const Services = () => {
                     type="date"
                     name="date"
                     className="mb-2 input input-bordered w-full "
+                    required
                   />
                   <br />
                   <textarea
@@ -119,6 +127,7 @@ const Services = () => {
                     name="issues"
                     placeholder="Place Your issues"
                     className="textarea w-full textarea-bordered"
+                    required
                   />
                   <br />
                   <button

@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   const menuItems = <>
     <li><Link to="/service">Book Service</Link></li>
-    <li><a>My Services</a></li>
+    <li><Link to='/myServices'>My Services</Link></li>
     </>
   return (
     <div>

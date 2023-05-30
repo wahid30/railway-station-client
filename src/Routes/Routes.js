@@ -4,6 +4,8 @@ import Homepage from "../Pages/Home/Homepage/Homepage";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/Login/SignUp";
 import Services from "../Pages/Services/Services";
+import MyBookings from "../Pages/Services/MyBookings";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
   {
@@ -22,18 +24,26 @@ export const router = createBrowserRouter([
         path: "/signUp",
         element: <SignUp></SignUp>,
       },
-    //   {
-    //     path: "/contact",
-    //     element: <Contact></Contact>,
-    //   },
+      {
+        path: "/myServices",
+        element: (
+          <PrivateRoute>
+            <MyBookings></MyBookings>
+          </PrivateRoute>
+        ),
+      },
       {
         path: "/service",
-        element: <Services></Services>,
+        element: (
+          <PrivateRoute>
+            <Services></Services>
+          </PrivateRoute>
+        ),
       },
-    //   {
-    //     path: "/about",
-    //     element: <About></About>,
-    //   },
-    ]
+      //   {
+      //     path: "/about",
+      //     element: <About></About>,
+      //   },
+    ],
   },
 ]);

@@ -10,7 +10,7 @@ const LatestPost = () => {
   },[])
   return (
     <div className="w-9/12 mx-auto my-5">
-      <h1>Latest Post</h1>
+      <h1 className="text-2xl text-center font-bold my-5">Latest Post</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
   {
     post.map(pst=> <LatestPostCards pst={pst}></LatestPostCards>)
