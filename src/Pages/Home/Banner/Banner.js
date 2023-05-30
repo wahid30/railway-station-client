@@ -2,13 +2,14 @@ import React from "react";
 import BannerItem from "./Banneritem";
 const bannerData = [
     {
-        image: "https://image.jimcdn.com/app/cms/image/transf/dimension=1190x10000:format=jpg/path/sa6549607c78f5c11/image/ib9300350e4963525/version/1457437210/best-railway-stations-in-europe-central-station-milan-european-best-destinations-copyright-rostislav-glinsky.jpg",
+        image: "https://pixahive.com/wp-content/uploads/edd/2020/08/Railway-Station-3260-pixahive.jpg",
         prev: 6,
         id: 1,
         next: 2
     },
     {
-        image: "https://pixahive.com/wp-content/uploads/edd/2020/08/Railway-Station-3260-pixahive.jpg",
+        image: 
+        "https://image.jimcdn.com/app/cms/image/transf/dimension=1190x10000:format=jpg/path/sa6549607c78f5c11/image/ib9300350e4963525/version/1457437210/best-railway-stations-in-europe-central-station-milan-european-best-destinations-copyright-rostislav-glinsky.jpg",
         prev: 1,
         id: 2,
         next: 3

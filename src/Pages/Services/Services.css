@@ -1,0 +1,16 @@
+.custom-bg-for-service{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), #000),
+    url("../../assets/images/services/service.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.custom-flex-services{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
