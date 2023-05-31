@@ -3,7 +3,7 @@ import MyBookingsCards from "./MyBookingsCards";
 const MyBookings = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://railway-station-server.vercel.app/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
